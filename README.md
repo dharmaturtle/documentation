@@ -55,10 +55,6 @@ docfx build docfx.json --serve
 
 This builds the site to the `/_site` folder and serves it at `http://localhost:8080`.
 
-### Use build script
-
-You can also use the _build.sh_ file in this repository to do most of these steps for you, and then run the Jeklyy eventstore.com site to serve the entire site, or `docfx build docfx.json --serve` to only serve the documentation.
-
 ### Small Edits
 
 1.  Make changes (fix typos or grammar, improve wording etc).
@@ -85,3 +81,9 @@ The content of our documentation has multiple authors. Formatting and style guid
 -   **Acronyms and abbreviations**: Use uppercase (e.g. API, HTTP, JVM)
 -   **Brand names**: Use correct typesetting (e.g. cURL, Event Store, JavaScript, .NET)
 -   **Example code** should not have a line length of more than 80 characters
+
+## Build for deployment build script
+
+You can also use the _build.sh_ file in this repository to do most of these steps for you, and then run the Jekyll eventstore.com site to serve the entire site, or `docfx build docfx.json --serve` to only serve the documentation.
+
+Then to get docs changes to eventstore.com, create a new PR with the generated HTML files in the _eventstore.com_ folder. Any changes made to this repository are not automatically deployed anywhere.
