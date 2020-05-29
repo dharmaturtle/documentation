@@ -41,7 +41,6 @@ Optional:
 
 You need the website for the top menu to work as on live. If you only need to preview the documentation locally, it is not needed.
 
-
 Follow the instructions [here](https://dotnet.github.io/docfx/tutorial/docfx_getting_started.html) to install DocFX and dependencies, then run the command below in the `documentation` directory to generate documentation from code comments:
 
 ```bash
