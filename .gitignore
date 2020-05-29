@@ -12,7 +12,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-build.sh
 redirects.xml
 /_site
 
@@ -81,7 +80,5 @@ $RECYCLE.BIN/
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
 #####
-build.sh
-/deploy.sh
 /code-examples/jvm-client
 /code-examples/dotnet-client
